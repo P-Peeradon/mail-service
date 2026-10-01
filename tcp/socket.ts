@@ -19,4 +19,4 @@ const server = net.createServer((socket) => {
 
 server.listen(3000, "127.0.0.1", () => {
     console.log("TCP Server is running on port 3000");
-})
+});
